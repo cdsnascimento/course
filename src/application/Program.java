@@ -17,6 +17,9 @@ public class Program {
         //Exibindo apenas o nome do arquivo, sem as pastas;
         System.out.println("getName: " + path.getName());
         
+        //Exibindo apenas o caminho sem o arquivo;
+        System.out.println("getParent: " + path.getParent());
+        
         
         sc.close();
 
