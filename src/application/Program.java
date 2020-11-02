@@ -19,7 +19,9 @@ public class Program {
         
         //Exibindo apenas o caminho sem o arquivo;
         System.out.println("getParent: " + path.getParent());
-        
+
+        //Exibindo apenas o caminho completo;
+        System.out.println("getPath: " + path.getPath());        
         
         sc.close();
 
